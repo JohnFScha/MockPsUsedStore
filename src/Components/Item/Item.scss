@@ -1,0 +1,10 @@
+article {
+  height: 100%;
+
+  div.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  
+  div.cart-widget {
+    margin: 15px 0;
 
-  h1{
-    margin: 25px 0;
-    font-size: 50px;
+    svg {
+      height: 24px;
+    }
   }
 }
