@@ -1,35 +1,20 @@
 import React from 'react'
+import useCount from '../../Hooks/useCount.js'
 import './ItemCount.scss'
-import { useState } from 'react'
 
-const ItemCount = (stock, initial, onAdd) => {
-  const [quantity, setQuantity] = useState(initial)
 
-  const add = () => {
-    if (quantity < stock) {
-      setQuantity(quantity + 1)
-    }
-  }
+const ItemCount = ({ initial, min, max, onAdd }) => {
 
-  const substract = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1)
-    }
-  }
+  const {count, add, substract, reset } = useCount(initial, min, max)
 
   return (
-    <div className="container counter">
-      <div className=" container control">
-        <button className="btn btn-outline-warning" onClick={substract()}>-</button>
-        <h1 className="display-1">{quantity}</h1>
-        <button className="btn btn-outline-success" onClick={add()}>+</button>
-      </div>
-      <div className="container agregar">
-        <button className="btn btn-primary" onClick={() => onAdd(quantity)} disabled={!stock}>
-          Add to cart
-        </button>
-      </div>
-    </div>
+    <>
+      <button className="btn btn-dark" onClick={substract}>-</button>
+      {count}
+      <button className="btn btn-dark" onClick={add}>+</button>
+      <button className="btn btn-dark" onClick={reset}>Reset</button>
+      <button className="btn btn-light" onClick={() => onAdd(count)}>Agregar al Carrito</button>
+    </>
   )
 }
 

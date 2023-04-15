@@ -7,7 +7,7 @@ nav {
   width: calc(5% + 15px);
   height: 100%;
   background-color: #7209B7;
-  box-shadow: 10px 5px 20px #F72585;
+  box-shadow: 5px 5px 10px 1px #F72585;
 
   div.d-flex {
     a {
@@ -38,7 +38,7 @@ nav {
         }
 
         &:hover {
-          background-color: #7209B7;
+          background-color: #241740;
           border: 1px solid #4CC9F0;
           
         }
