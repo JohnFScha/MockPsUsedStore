@@ -11,7 +11,7 @@ const Item = ({juego}) => {
         <h2 className='card-title'>Genre: {juego.genre}</h2>
         <h2 className='card-title'>${juego.price}</h2>
         <p className="card-text">Metracritic score: {juego.score}</p>
-        <button className="btn btn-primary"><Link className='nav-link' to={`/juego/${juego.id}`}>Details</Link></button>
+        <button className="btn btn-primary d-block w-100"><Link className='nav-link' to={`/juego/${juego.id}`}>Details</Link></button>
       </div>
     </article>
   )

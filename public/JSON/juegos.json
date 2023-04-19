@@ -3,9 +3,10 @@
     "title": "Grand Theft Auto 5",
     "id": 1,
     "quantity": 10,
-    "genre": "shooter",
+    "genre": "shooter, racing",
     "score": 9.8,
     "price": 50,
+    "console": "ps3",
     "img": "/Portraits/grand-theft-auto-V.jpg"
   },
   {
@@ -15,78 +16,287 @@
     "genre": "racing",
     "score": 9.5,
     "price": 50,
+    "console": "ps3",
     "img": "/Portraits/gran-turismo-5.jpg"
   },
   {
     "title": "Alice, Madness Returns",
     "id": 3,
     "quantity": 10,
-    "genre": "adventure",
+    "genre": "adventure, platformer",
     "score": 8.5,
     "price": 30,
+    "console": "ps3",
     "img": "/Portraits/alice-madness-returns.jpg"
   },
   {
     "title": "Dark Souls",
     "id": 4,
     "quantity": 10,
-    "genre": "action-adventure",
+    "genre": "action, adventure",
     "score": 9.8,
     "price": 45,
+    "console": "ps3",
     "img": "/Portraits/dark-souls.jpg"
   },
   {
     "title": "The Last of Us",
     "id": 5,
     "quantity": 10,
-    "genre": "action-shooter",
+    "genre": "action, shooter",
     "score": 8.9,
     "price": 40,
+    "console": "ps3",
     "img": "/Portraits/the-last-of-us.jpg"
   },
   {
     "title": "Fallout: New Vegas",
     "id": 6,
     "quantity": 10,
-    "genre": "rpg-shooter",
+    "genre": "rpg, shooter",
     "score": 8.3,
     "price": 35,
+    "console": "ps3",
     "img": "/Portraits/fallout-new-vegas.jpg"
   },
   {
     "title": "Resident Evil 5",
     "id": 7,
     "quantity": 10,
-    "genre": "Horror-shooter",
+    "genre": "Horror, shooter",
     "score": 7,
     "price": 35,
+    "console": "ps3",
     "img": "/Portraits/resident-evil-5.jpg"
   },
   {
     "title": "The Elder Scrolls V: Skyrim",
     "id": 8,
     "quantity": 10,
-    "genre": "rpg-adventure",
+    "genre": "rpg, adventure",
     "score": 8.9,
     "price": 40,
+    "console": "ps3",
     "img": "/Portraits/skyrim.jpg"
   },
   {
     "title": "Uncharted 3: Drake's Deception",
     "id": 9,
     "quantity": 10,
-    "genre": "cinematic-adventure",
+    "genre": "cinematic, adventure",
     "score": 9,
     "price": 50,
+    "console": "ps3",
     "img": "/Portraits/uncharted-3.jpg"
   },
   {
     "title": "FarCry 4",
     "id": 10,
     "quantity": 10,
-    "genre": "rpg-shooter",
+    "genre": "rpg, shooter",
     "score": 8.3,
     "price": 30,
+    "console": "ps3",
     "img": "/Portraits/farcry-4.jpg"
+  },
+  {
+    "title": "Grand Theft Auto 5",
+    "id": 11,
+    "quantity": 10,
+    "genre": "shooter, racing",
+    "score": 9.5,
+    "price": 50,
+    "console": "ps4",
+    "img": "/Portraits/grand-theft-auto-V-ps4.jpg"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "id": 12,
+    "quantity": 10,
+    "genre": "shooter, rpg",
+    "score": 9.7,
+    "price": 50,
+    "console": "ps4",
+    "img": "/Portraits/red-dead-redemption-2.jpg"
+  },
+  {
+    "title": "Persona 5 Royal",
+    "id": 13,
+    "quantity": 10,
+    "genre": "j-rpg",
+    "score": 9.5,
+    "price": 30,
+    "console": "ps4",
+    "img": "/Portraits/persona-5-royal.jpg"
+  },
+  {
+    "title": "The Last of Us Remastered",
+    "id": 14,
+    "quantity": 10,
+    "genre": "action, adventure",
+    "score": 9.5,
+    "price": 45,
+    "console": "ps4",
+    "img": "/Portraits/the-last-of-us-remastered.jpg"
+  },
+  {
+    "title": "God Of War (2018)",
+    "id": 15,
+    "quantity": 10,
+    "genre": "action, rpg",
+    "score": 9.4,
+    "price": 40,
+    "console": "ps4",
+    "img": "/Portraits/god-of-war.jpg"
+  },
+  {
+    "title": "Journey",
+    "id": 16,
+    "quantity": 10,
+    "genre": "platformer, adventure",
+    "score": 9.2,
+    "price": 35,
+    "console": "ps4",
+    "img": "/Portraits/journey.jpg"
+  },
+  {
+    "title": "The Last of Us Part II",
+    "id": 17,
+    "quantity": 10,
+    "genre": "action, shooter",
+    "score": 7,
+    "price": 35,
+    "console": "ps4",
+    "img": "/Portraits/the-last-of-us-part-ii.jpg"
+  },
+  {
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "id": 18,
+    "quantity": 10,
+    "genre": "rpg, shooter",
+    "score": 9.3,
+    "price": 40,
+    "console": "ps4",
+    "img": "/Portraits/metal-gear-solid-v-the-phantom-pain.jpg"
+  },
+  {
+    "title": "Uncharted 4: A Thief's End",
+    "id": 19,
+    "quantity": 10,
+    "genre": "cinematic, adventure",
+    "score": 9.3,
+    "price": 50,
+    "console": "ps4",
+    "img": "/Portraits/uncharted-4-a-thiefs-end.jpg"
+  },
+  {
+    "title": "Bloodborne",
+    "id": 20,
+    "quantity": 10,
+    "genre": "rpg, horror",
+    "score": 8.3,
+    "price": 30,
+    "console": "ps4",
+    "img": "/Portraits/bloodborne.jpg"
+  },
+  {
+    "title": "Elden Ring",
+    "id": 21,
+    "quantity": 10,
+    "genre": "rpg",
+    "score": 9.6,
+    "price": 50,
+    "console": "ps5",
+    "img": "/Portraits/elden-ring.jpg"
+  },
+  {
+    "title": "God Of War: Ragnarok",
+    "id": 22,
+    "quantity": 10,
+    "genre": "sandbox, action, rpg",
+    "score": 9.4,
+    "price": 50,
+    "console": "ps5",
+    "img": "/Portraits/god-of-war-ragnarok.jpg"
+  },
+  {
+    "title": "Demon's Souls",
+    "id": 23,
+    "quantity": 10,
+    "genre": "rpg",
+    "score": 9.2,
+    "price": 30,
+    "console": "ps5",
+    "img": "/Portraits/demons-souls.jpg"
+  },
+  {
+    "title": "Final Fantasy VII: Remake",
+    "id": 24,
+    "quantity": 10,
+    "genre": "rpg",
+    "score": 8.9,
+    "price": 45,
+    "console": "ps5",
+    "img": "/Portraits/final-fantasy-vii-remake-intergrade.jpg"
+  },
+  {
+    "title": "Spider-man: Miles Morales",
+    "id": 25,
+    "quantity": 10,
+    "genre": "action",
+    "score": 8.5,
+    "price": 40,
+    "console": "ps5",
+    "img": "/Portraits/marvel-spider-man-miles-morales.jpg"
+  },
+  {
+    "title": "Ratchet & Clank: Rift Apart",
+    "id": 26,
+    "quantity": 10,
+    "genre": "platformer, adventure",
+    "score": 8.8,
+    "price": 35,
+    "console": "ps5",
+    "img": "/Portraits/ratchet-clank-rift-apart.jpg"
+  },
+  {
+    "title": "Resident Evil Village",
+    "id": 27,
+    "quantity": 10,
+    "genre": "Horror, shooter",
+    "score": 7,
+    "price": 35,
+    "console": "ps5",
+    "img": "/Portraits/resident-evil-village.jpg"
+  },
+  {
+    "title": "Horizon II: Forbidden West",
+    "id": 28,
+    "quantity": 10,
+    "genre": "rpg, adventure",
+    "score": 8.8,
+    "price": 40,
+    "console": "ps5",
+    "img": "/Portraits/horizon-ii-forbidden-west.jpg"
+  },
+  {
+    "title": "Returnal",
+    "id": 29,
+    "quantity": 10,
+    "genre": "action, shooter",
+    "score": 8.6,
+    "price": 50,
+    "console": "ps5",
+    "img": "/Portraits/returnal.jpg"
+  },
+  {
+    "title": "Ghost of Tsushima: Director's Cut",
+    "id": 30,
+    "quantity": 10,
+    "genre": "action, adventure",
+    "score": 8.7,
+    "price": 30,
+    "console": "ps5",
+    "img": "/Portraits/ghost-of-tsushima-directors-cut.jpg"
   }
 ]
