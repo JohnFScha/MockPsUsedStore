@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const useCount = (initial = 1, min, max) => {
   if (initial < min || initial > max) {
