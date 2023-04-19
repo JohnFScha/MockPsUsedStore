@@ -15,9 +15,9 @@ const ItemListContainer = () => {
   })
 
   return (
-    <div className="row">
+    <main className="row">
       <ItemList juegos={juegos} />
-    </div>
+    </main>
   )
 }
 

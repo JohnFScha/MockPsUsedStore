@@ -6,7 +6,7 @@
     "genre": "shooter",
     "score": 9.8,
     "price": 50,
-    "img": "Portraits/grand-theft-auto-V.jpg"
+    "img": "/Portraits/grand-theft-auto-V.jpg"
   },
   {
     "title": "Gran Turismo 5",
@@ -15,7 +15,7 @@
     "genre": "racing",
     "score": 9.5,
     "price": 50,
-    "img": "Portraits/gran-turismo-5.jpg"
+    "img": "/Portraits/gran-turismo-5.jpg"
   },
   {
     "title": "Alice, Madness Returns",
@@ -24,7 +24,7 @@
     "genre": "adventure",
     "score": 8.5,
     "price": 30,
-    "img": "Portraits/alice-madness-returns.jpg"
+    "img": "/Portraits/alice-madness-returns.jpg"
   },
   {
     "title": "Dark Souls",
@@ -33,7 +33,7 @@
     "genre": "action-adventure",
     "score": 9.8,
     "price": 45,
-    "img": "Portraits/dark-souls.jpg"
+    "img": "/Portraits/dark-souls.jpg"
   },
   {
     "title": "The Last of Us",
@@ -42,7 +42,7 @@
     "genre": "action-shooter",
     "score": 8.9,
     "price": 40,
-    "img": "Portraits/the-last-of-us.jpg"
+    "img": "/Portraits/the-last-of-us.jpg"
   },
   {
     "title": "Fallout: New Vegas",
@@ -51,7 +51,7 @@
     "genre": "rpg-shooter",
     "score": 8.3,
     "price": 35,
-    "img": "Portraits/fallout-new-vegas.jpg"
+    "img": "/Portraits/fallout-new-vegas.jpg"
   },
   {
     "title": "Resident Evil 5",
@@ -60,7 +60,7 @@
     "genre": "Horror-shooter",
     "score": 7,
     "price": 35,
-    "img": "Portraits/resident-evil-5.jpg"
+    "img": "/Portraits/resident-evil-5.jpg"
   },
   {
     "title": "The Elder Scrolls V: Skyrim",
@@ -69,7 +69,7 @@
     "genre": "rpg-adventure",
     "score": 8.9,
     "price": 40,
-    "img": "Portraits/skyrim.jpg"
+    "img": "/Portraits/skyrim.jpg"
   },
   {
     "title": "Uncharted 3: Drake's Deception",
@@ -78,7 +78,7 @@
     "genre": "cinematic-adventure",
     "score": 9,
     "price": 50,
-    "img": "Portraits/uncharted-3.jpg"
+    "img": "/Portraits/uncharted-3.jpg"
   },
   {
     "title": "FarCry 4",
@@ -87,6 +87,6 @@
     "genre": "rpg-shooter",
     "score": 8.3,
     "price": 30,
-    "img": "Portraits/farcry-4.jpg"
+    "img": "/Portraits/farcry-4.jpg"
   }
 ]

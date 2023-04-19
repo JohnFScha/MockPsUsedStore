@@ -9,10 +9,12 @@ const ItemCount = ({ initial, min, max, onAdd }) => {
 
   return (
     <>
-      <button className="btn btn-dark" onClick={substract}>-</button>
-      {count}
-      <button className="btn btn-dark" onClick={add}>+</button>
-      <button className="btn btn-dark" onClick={reset}>Reset</button>
+      <div className='container count'>
+        <button className="btn btn-dark" onClick={substract}>-</button>
+        {count}
+        <button className="btn btn-dark" onClick={add}>+</button>
+        <button className="btn btn-dark" onClick={reset}>Reset</button>
+      </div>
       <button className="btn btn-light" onClick={() => onAdd(count)}>Agregar al Carrito</button>
     </>
   )
