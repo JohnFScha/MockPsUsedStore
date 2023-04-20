@@ -5,8 +5,8 @@
     "quantity": 10,
     "genre": "shooter, racing",
     "score": 9.8,
-    "price": 50,
-    "console": "ps3",
+    "price": 30,
+    "console": "PlayStation 3",
     "img": "/Portraits/grand-theft-auto-V.jpg"
   },
   {
@@ -15,8 +15,8 @@
     "quantity": 10,
     "genre": "racing",
     "score": 9.5,
-    "price": 50,
-    "console": "ps3",
+    "price": 25,
+    "console": "PlayStation 3",
     "img": "/Portraits/gran-turismo-5.jpg"
   },
   {
@@ -25,8 +25,8 @@
     "quantity": 10,
     "genre": "adventure, platformer",
     "score": 8.5,
-    "price": 30,
-    "console": "ps3",
+    "price": 15,
+    "console": "PlayStation 3",
     "img": "/Portraits/alice-madness-returns.jpg"
   },
   {
@@ -35,8 +35,8 @@
     "quantity": 10,
     "genre": "action, adventure",
     "score": 9.8,
-    "price": 45,
-    "console": "ps3",
+    "price": 30,
+    "console": "PlayStation 3",
     "img": "/Portraits/dark-souls.jpg"
   },
   {
@@ -45,8 +45,8 @@
     "quantity": 10,
     "genre": "action, shooter",
     "score": 8.9,
-    "price": 40,
-    "console": "ps3",
+    "price": 30,
+    "console": "PlayStation 3",
     "img": "/Portraits/the-last-of-us.jpg"
   },
   {
@@ -55,8 +55,8 @@
     "quantity": 10,
     "genre": "rpg, shooter",
     "score": 8.3,
-    "price": 35,
-    "console": "ps3",
+    "price": 15,
+    "console": "PlayStation 3",
     "img": "/Portraits/fallout-new-vegas.jpg"
   },
   {
@@ -65,8 +65,8 @@
     "quantity": 10,
     "genre": "Horror, shooter",
     "score": 7,
-    "price": 35,
-    "console": "ps3",
+    "price": 20,
+    "console": "PlayStation 3",
     "img": "/Portraits/resident-evil-5.jpg"
   },
   {
@@ -75,8 +75,8 @@
     "quantity": 10,
     "genre": "rpg, adventure",
     "score": 8.9,
-    "price": 40,
-    "console": "ps3",
+    "price": 25,
+    "console": "PlayStation 3",
     "img": "/Portraits/skyrim.jpg"
   },
   {
@@ -85,8 +85,8 @@
     "quantity": 10,
     "genre": "cinematic, adventure",
     "score": 9,
-    "price": 50,
-    "console": "ps3",
+    "price": 25,
+    "console": "PlayStation 3",
     "img": "/Portraits/uncharted-3.jpg"
   },
   {
@@ -95,8 +95,8 @@
     "quantity": 10,
     "genre": "rpg, shooter",
     "score": 8.3,
-    "price": 30,
-    "console": "ps3",
+    "price": 15,
+    "console": "PlayStation 3",
     "img": "/Portraits/farcry-4.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "genre": "shooter, racing",
     "score": 9.5,
     "price": 50,
-    "console": "ps4",
+    "console": "PlayStation 4",
     "img": "/Portraits/grand-theft-auto-V-ps4.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "genre": "shooter, rpg",
     "score": 9.7,
     "price": 50,
-    "console": "ps4",
+    "console": "PlayStation 4",
     "img": "/Portraits/red-dead-redemption-2.jpg"
   },
   {
@@ -125,8 +125,8 @@
     "quantity": 10,
     "genre": "j-rpg",
     "score": 9.5,
-    "price": 30,
-    "console": "ps4",
+    "price": 60,
+    "console": "PlayStation 4",
     "img": "/Portraits/persona-5-royal.jpg"
   },
   {
@@ -135,8 +135,8 @@
     "quantity": 10,
     "genre": "action, adventure",
     "score": 9.5,
-    "price": 45,
-    "console": "ps4",
+    "price": 50,
+    "console": "PlayStation 4",
     "img": "/Portraits/the-last-of-us-remastered.jpg"
   },
   {
@@ -145,8 +145,8 @@
     "quantity": 10,
     "genre": "action, rpg",
     "score": 9.4,
-    "price": 40,
-    "console": "ps4",
+    "price": 55,
+    "console": "PlayStation 4",
     "img": "/Portraits/god-of-war.jpg"
   },
   {
@@ -155,8 +155,8 @@
     "quantity": 10,
     "genre": "platformer, adventure",
     "score": 9.2,
-    "price": 35,
-    "console": "ps4",
+    "price": 30,
+    "console": "PlayStation 4",
     "img": "/Portraits/journey.jpg"
   },
   {
@@ -165,8 +165,8 @@
     "quantity": 10,
     "genre": "action, shooter",
     "score": 7,
-    "price": 35,
-    "console": "ps4",
+    "price": 60,
+    "console": "PlayStation 4",
     "img": "/Portraits/the-last-of-us-part-ii.jpg"
   },
   {
@@ -175,8 +175,8 @@
     "quantity": 10,
     "genre": "rpg, shooter",
     "score": 9.3,
-    "price": 40,
-    "console": "ps4",
+    "price": 50,
+    "console": "PlayStation 4",
     "img": "/Portraits/metal-gear-solid-v-the-phantom-pain.jpg"
   },
   {
@@ -185,8 +185,8 @@
     "quantity": 10,
     "genre": "cinematic, adventure",
     "score": 9.3,
-    "price": 50,
-    "console": "ps4",
+    "price": 40,
+    "console": "PlayStation 4",
     "img": "/Portraits/uncharted-4-a-thiefs-end.jpg"
   },
   {
@@ -195,8 +195,8 @@
     "quantity": 10,
     "genre": "rpg, horror",
     "score": 8.3,
-    "price": 30,
-    "console": "ps4",
+    "price": 45,
+    "console": "PlayStation 4",
     "img": "/Portraits/bloodborne.jpg"
   },
   {
@@ -205,8 +205,8 @@
     "quantity": 10,
     "genre": "rpg",
     "score": 9.6,
-    "price": 50,
-    "console": "ps5",
+    "price": 90,
+    "console": "PlayStation 5",
     "img": "/Portraits/elden-ring.jpg"
   },
   {
@@ -215,8 +215,8 @@
     "quantity": 10,
     "genre": "sandbox, action, rpg",
     "score": 9.4,
-    "price": 50,
-    "console": "ps5",
+    "price": 75,
+    "console": "PlayStation 5",
     "img": "/Portraits/god-of-war-ragnarok.jpg"
   },
   {
@@ -225,8 +225,8 @@
     "quantity": 10,
     "genre": "rpg",
     "score": 9.2,
-    "price": 30,
-    "console": "ps5",
+    "price": 75,
+    "console": "PlayStation 5",
     "img": "/Portraits/demons-souls.jpg"
   },
   {
@@ -235,8 +235,8 @@
     "quantity": 10,
     "genre": "rpg",
     "score": 8.9,
-    "price": 45,
-    "console": "ps5",
+    "price": 90,
+    "console": "PlayStation 5",
     "img": "/Portraits/final-fantasy-vii-remake-intergrade.jpg"
   },
   {
@@ -245,8 +245,8 @@
     "quantity": 10,
     "genre": "action",
     "score": 8.5,
-    "price": 40,
-    "console": "ps5",
+    "price": 65,
+    "console": "PlayStation 5",
     "img": "/Portraits/marvel-spider-man-miles-morales.jpg"
   },
   {
@@ -255,8 +255,8 @@
     "quantity": 10,
     "genre": "platformer, adventure",
     "score": 8.8,
-    "price": 35,
-    "console": "ps5",
+    "price": 60,
+    "console": "PlayStation 5",
     "img": "/Portraits/ratchet-clank-rift-apart.jpg"
   },
   {
@@ -265,8 +265,8 @@
     "quantity": 10,
     "genre": "Horror, shooter",
     "score": 7,
-    "price": 35,
-    "console": "ps5",
+    "price": 70,
+    "console": "PlayStation 5",
     "img": "/Portraits/resident-evil-village.jpg"
   },
   {
@@ -275,8 +275,8 @@
     "quantity": 10,
     "genre": "rpg, adventure",
     "score": 8.8,
-    "price": 40,
-    "console": "ps5",
+    "price": 85,
+    "console": "PlayStation 5",
     "img": "/Portraits/horizon-ii-forbidden-west.jpg"
   },
   {
@@ -285,8 +285,8 @@
     "quantity": 10,
     "genre": "action, shooter",
     "score": 8.6,
-    "price": 50,
-    "console": "ps5",
+    "price": 70,
+    "console": "PlayStation 5",
     "img": "/Portraits/returnal.jpg"
   },
   {
@@ -295,8 +295,8 @@
     "quantity": 10,
     "genre": "action, adventure",
     "score": 8.7,
-    "price": 30,
-    "console": "ps5",
+    "price": 90,
+    "console": "PlayStation 5",
     "img": "/Portraits/ghost-of-tsushima-directors-cut.jpg"
   }
 ]

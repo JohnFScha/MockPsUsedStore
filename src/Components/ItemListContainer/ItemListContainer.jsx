@@ -3,7 +3,7 @@ import './ItemListContainer.scss'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
   const [juegos, setJuegos] = useState([])
   const { category } = useParams()
 
@@ -27,9 +27,12 @@ const ItemListContainer = () => {
   }, [category])
 
   return (
-    <main className="row">
-      <ItemList juegos={juegos} />
-    </main>
+    <>
+      <h1 className="display-4 animate__animated animate__flipInX">{greeting} {category}</h1>
+      <main className="row">
+        <ItemList juegos={juegos} />
+      </main>
+    </>
   )
 }
 

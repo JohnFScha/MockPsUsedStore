@@ -4,7 +4,7 @@ import './Item.scss'
 
 const Item = ({juego}) => {
   return (
-    <article className='card col-lg-3 col-sm-1'>
+    <article className='animate__animated animate__zoomIn card col-lg-3 col-sm-1'>
       <div className="card-body">
         <img className='card-img-top' src={juego.img} alt={juego.title}/>
         <h1 className="card-title">{juego.title}</h1>
