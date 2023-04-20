@@ -3,12 +3,12 @@ import './CartWidget.scss'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const CartWidget = () => {
+const CartWidget = ({count}) => {
   return (
-    <div className='cart-widget'>
+    <button className='btn btn-primary'>
       <FontAwesomeIcon icon={faCartShopping} />
-      0
-    </div>
+        {count}
+    </button>
   )
 }
 

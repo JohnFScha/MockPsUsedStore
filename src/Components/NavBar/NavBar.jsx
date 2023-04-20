@@ -11,7 +11,7 @@ const NavBar = () => {
         <a href="/" className="d-block p-1 link-body-emphasis text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
           <img className='rounded rounded-circle' src={Logo} alt="logo" />
         </a>
-        <CartWidget />
+        <CartWidget count={0} />
         <Categories />
       </div>
     </nav>

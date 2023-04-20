@@ -5,10 +5,22 @@ div.App {
   background-color: #241740;
   
   div.cart-widget {
-    margin: 15px 0;
+    margin: 16px;
+    padding: 10px;
 
     svg {
       height: 24px;
+    }
+  }
+
+  main.row {
+    width: 100%;
+    gap: 0;
+    justify-content: flex-end;
+
+    article.card{
+      width: 28%;
+      margin: 16px;
     }
   }
 }
