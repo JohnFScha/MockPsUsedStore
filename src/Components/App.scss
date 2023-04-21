@@ -8,7 +8,7 @@ div.App {
     display: inline-block;
     width: 35%;
     text-align: center;
-    margin: 30px auto 15px auto;
+    margin: 30px -130px 15px auto;
     padding: 15px;
     font-family: monospace;
     color: #F72585;
@@ -19,7 +19,7 @@ div.App {
 
     &:hover {
       color: #4CC9F0;
-      background-color: #F72585;
+      background-color: #241740;
     }
   
   }
@@ -41,10 +41,11 @@ div.App {
     article.card{
       background-color: #241740;
       border: 2px solid #F72585;
+      box-shadow: 0 0 15px 0px #F72585;
       color: #F72585;
       border-radius: 10px;
       width: 28%;
-      margin: 12px;
+      margin: 15px;
       padding: 10px;
       backdrop-filter: blur(25px);
       
@@ -53,6 +54,16 @@ div.App {
         width: 100%;
         padding: 10px;
       }
+
+      button {
+        font-family: monospace;
+        font-size: 25px;
+      }
+
+    }
+
+    article.card:last-of-type {
+      justify-self: flex-start;
     }
   }
 }

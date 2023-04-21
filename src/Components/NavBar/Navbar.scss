@@ -6,8 +6,8 @@ nav {
   overflow: hidden;
   width: 8%;
   height: 100%;
-  background-image: linear-gradient(to right , #7209B7, #F72585);
-  box-shadow: 5px 5px 5px 10px #F72585;
+  background-image: linear-gradient(to right, #F72585, #7209B7 85%, #241740 99%);
+  // box-shadow: 5px 5px 5px 10px #F72585;
 
   div.d-flex {
 
@@ -19,7 +19,6 @@ nav {
       border: none;
       img {
         width: 6rem;
-        margin: auto;
       }
     }
 
