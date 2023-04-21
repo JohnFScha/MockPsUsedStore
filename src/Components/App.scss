@@ -16,6 +16,7 @@ div.App {
     border: 1px solid #F72585;
     border-radius: 10px;
     transition: 350ms;
+    animation-duration: 1.5s;
 
     &:hover {
       color: #4CC9F0;
@@ -38,8 +39,8 @@ div.App {
     gap: 0;
     justify-content: flex-end;
 
-    article.card{
-      background-color: #241740;
+    article.card {
+      background-color: transparent;
       border: 2px solid #F72585;
       box-shadow: 0 0 20px 0px #4CC9F0;
       color: #F72585;
@@ -47,12 +48,17 @@ div.App {
       width: 25%;
       margin: 35px;
       padding: 10px;
-      backdrop-filter: blur(25px);
+      animation-duration: 1.5s;
       
 
       div.card-body {
         width: 100%;
         padding: 10px;
+        filter: none;
+
+        p.card-text {
+          font-size: 20px;
+        }
       }
 
       button {

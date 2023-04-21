@@ -6,7 +6,7 @@ import Categories from './Categories/Categories'
 
 const NavBar = () => {
   return (
-    <nav className='d-flex justify-content-evenly animate__animated animate__slideInLeft'>
+    <nav className='d-flex justify-content-start animate__animated animate__slideInLeft'>
       <div className="d-flex flex-column flex-shrink-0 justify-content-evenly">
         <a href="/" className="d-block p-1 link-body-emphasis text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
           <img className='rounded rounded-circle' src={Logo} alt="logo" />
