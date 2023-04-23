@@ -5,6 +5,7 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import NavBar from './NavBar/NavBar';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer'
 import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/juego/:game' element={<ItemDetailContainer/>}/>
             <Route path='/cart' element={<Cart/>}/>
             <Route path='*' element={<h1>404 - Not Found</h1>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
           </Routes>
       </BrowserRouter>
     </div>

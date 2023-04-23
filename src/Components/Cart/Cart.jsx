@@ -23,7 +23,7 @@ const Cart = () => {
         </div>
         <div className="col-12 buttonCont">
           <p>Total price: ${totalPrice()}</p>
-          <button className="btn btn-outline-success" id='end'>End Purchase</button>
+          <button className="btn btn-outline-success" id='end'><Link className='nav-link' to={'/checkout'}>End Purchase</Link></button>
         </div>
       </main>
       }
