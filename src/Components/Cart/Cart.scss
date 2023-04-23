@@ -16,11 +16,27 @@ div.container.cartEmpty {
   }
 }
 
-div.container#cartFull {
+div.container.cartFull {
   width: 100%;
+  padding: 0;
   display: flex;
-  flex-direction: column !important;
-  flex-wrap: wrap !important;
-  align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  h1.display-4#cartTitle {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  div.row#cartList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    div.col {
+      width: 100%;
+    }
+  }
 }

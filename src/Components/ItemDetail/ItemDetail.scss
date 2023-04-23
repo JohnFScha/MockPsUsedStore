@@ -3,14 +3,12 @@ div.row.g-0 {
   background-color: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   border: 3px solid #F72585;
   box-shadow: 0 0 25px 0px #4CC9F0;
   border-radius: 10px;
-  z-index: 1;
-  position: absolute; 
-  top: 90px;
-  right: 25px;
+  margin-top: 55px;
+  margin-right: 25px;
   background-color: #241740;
 
   div.col-6 {

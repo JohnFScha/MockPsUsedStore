@@ -7,7 +7,7 @@ const ItemCart = ({juego}) => {
   const {removeGame}  = useCarritoContext()
 
   return (
-    <div className="row g-0 p-4 animate__animated animate__bounceIn">
+    <div className="row g-0 p-4 animate__animated animate__bounceIn" id='cartList'>
       <div className="col-4">
           <img src={juego.img} alt={`Imagen de ${juego.title}`} className="img-fluid rounded-start" />
       </div>

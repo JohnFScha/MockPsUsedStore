@@ -17,9 +17,9 @@ const ItemDetailContainer = () => {
   }, [game])
 
   return (
-    <>
+    <main className='row'>
       <ItemDetail juego={juego} />
-    </>
+    </main>
   )
 }
 
