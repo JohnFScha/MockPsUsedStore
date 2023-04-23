@@ -1,0 +1,26 @@
+div.container.cartEmpty {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  h1.display-4#cartTitle {
+    margin: 20px;
+  }
+
+  button.btn#backButton {
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+  }
+}
+
+div.container#cartFull {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -1,12 +1,16 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import './ItemDetail.scss'
+import { useCarritoContext } from '../../Context/CarritoContext'
 
 
 const ItemDetail = ({ juego }) => {
+  const {addGame} = useCarritoContext()
+
   const onAdd = (contador) => {
-    console.log(contador)
+    addGame(juego, contador)
     console.log(juego)
+    console.log(contador)
   }
 
   return (
@@ -20,8 +24,8 @@ const ItemDetail = ({ juego }) => {
               <p className="card-text">Genre: {juego.genre}</p>
               <p className="card-text">Metacritic score: {juego.score}</p>
               <p className="card-text">Price: ${juego.price}</p>
-              <p className="card-text">Stock: {juego.quantity}</p>
-              <ItemCount initial={1} min={1} max={juego.quantity} onAdd={onAdd} />
+              <p className="card-text">Stock: {juego.stock}</p>
+              <ItemCount initial={0} min={1} max={juego.stock} onAdd={onAdd} />
           </div>
       </div>
     </div>

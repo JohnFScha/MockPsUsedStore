@@ -13,14 +13,14 @@ const ItemListContainer = ({greeting}) => {
       fetch('../JSON/juegos.json')
       .then(response => response.json())
       .then(juegos => {
-        const juegosFiltrados = juegos.filter(jueg => jueg.quantity > 0).filter(jueg => jueg.console === category)
+        const juegosFiltrados = juegos.filter(jueg => jueg.stock > 0).filter(jueg => jueg.console === category)
         setJuegos(juegosFiltrados)
       })
     } else {
       fetch('./JSON/juegos.json')
       .then(response => response.json())
       .then(juegos => {
-        const juegosFiltrados = juegos.filter(jueg => jueg.quantity > 0)
+        const juegosFiltrados = juegos.filter(jueg => jueg.stock > 0)
         setJuegos(juegosFiltrados)
       })
     }
@@ -30,7 +30,7 @@ const ItemListContainer = ({greeting}) => {
     <>
       <h1 className="display-4 animate__animated animate__flipInX">{greeting} {category}</h1>
       <main className="row">
-        <ItemList juegos={juegos} />
+        <ItemList juegos={juegos} plantilla={"Item"} />
       </main>
     </>
   )

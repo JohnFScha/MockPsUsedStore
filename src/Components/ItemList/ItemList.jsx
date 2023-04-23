@@ -1,9 +1,15 @@
 import React from 'react'
 import Item from '../Item/Item'
-const ItemList = ({juegos}) => {
+import ItemCart from '../ItemCart/ItemCart'
+const ItemList = ({juegos, plantilla}) => {
   return (
     <>
-      {juegos.map(juego => <Item key={juego.id} juego={juego} />)}
+      {
+        plantilla === "Item" ?
+        juegos.map(juego => <Item key={juego.id} juego={juego} />)
+        :
+        juegos.map(juego => <ItemCart key={juego.id} juego={juego} />)
+      }
     </>
   )
 }

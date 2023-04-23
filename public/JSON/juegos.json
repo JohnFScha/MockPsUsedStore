@@ -2,7 +2,7 @@
   {
     "title": "Grand Theft Auto 5",
     "id": 1,
-    "quantity": 10,
+    "stock": 10,
     "genre": "shooter, racing",
     "score": 9.8,
     "price": 30,
@@ -12,7 +12,7 @@
   {
     "title": "Gran Turismo 5",
     "id": 2,
-    "quantity": 10,
+    "stock": 10,
     "genre": "racing",
     "score": 9.5,
     "price": 25,
@@ -22,7 +22,7 @@
   {
     "title": "Alice, Madness Returns",
     "id": 3,
-    "quantity": 10,
+    "stock": 10,
     "genre": "adventure, platformer",
     "score": 8.5,
     "price": 15,
@@ -32,7 +32,7 @@
   {
     "title": "Dark Souls",
     "id": 4,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, adventure",
     "score": 9.8,
     "price": 30,
@@ -42,7 +42,7 @@
   {
     "title": "The Last of Us",
     "id": 5,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, shooter",
     "score": 8.9,
     "price": 30,
@@ -52,7 +52,7 @@
   {
     "title": "Fallout: New Vegas",
     "id": 6,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, shooter",
     "score": 8.3,
     "price": 15,
@@ -62,7 +62,7 @@
   {
     "title": "Resident Evil 5",
     "id": 7,
-    "quantity": 10,
+    "stock": 10,
     "genre": "Horror, shooter",
     "score": 7,
     "price": 20,
@@ -72,7 +72,7 @@
   {
     "title": "The Elder Scrolls V: Skyrim",
     "id": 8,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, adventure",
     "score": 8.9,
     "price": 25,
@@ -82,7 +82,7 @@
   {
     "title": "Uncharted 3: Drake's Deception",
     "id": 9,
-    "quantity": 10,
+    "stock": 10,
     "genre": "cinematic, adventure",
     "score": 9,
     "price": 25,
@@ -92,7 +92,7 @@
   {
     "title": "FarCry 4",
     "id": 10,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, shooter",
     "score": 8.3,
     "price": 15,
@@ -102,7 +102,7 @@
   {
     "title": "Grand Theft Auto 5",
     "id": 11,
-    "quantity": 10,
+    "stock": 10,
     "genre": "shooter, racing",
     "score": 9.5,
     "price": 50,
@@ -112,7 +112,7 @@
   {
     "title": "Red Dead Redemption 2",
     "id": 12,
-    "quantity": 10,
+    "stock": 10,
     "genre": "shooter, rpg",
     "score": 9.7,
     "price": 50,
@@ -122,7 +122,7 @@
   {
     "title": "Persona 5 Royal",
     "id": 13,
-    "quantity": 10,
+    "stock": 10,
     "genre": "j-rpg",
     "score": 9.5,
     "price": 60,
@@ -132,7 +132,7 @@
   {
     "title": "The Last of Us Remastered",
     "id": 14,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, adventure",
     "score": 9.5,
     "price": 50,
@@ -142,7 +142,7 @@
   {
     "title": "God Of War (2018)",
     "id": 15,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, rpg",
     "score": 9.4,
     "price": 55,
@@ -152,7 +152,7 @@
   {
     "title": "Journey",
     "id": 16,
-    "quantity": 10,
+    "stock": 10,
     "genre": "platformer, adventure",
     "score": 9.2,
     "price": 30,
@@ -162,7 +162,7 @@
   {
     "title": "The Last of Us Part II",
     "id": 17,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, shooter",
     "score": 7,
     "price": 60,
@@ -172,7 +172,7 @@
   {
     "title": "Metal Gear Solid V: The Phantom Pain",
     "id": 18,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, shooter",
     "score": 9.3,
     "price": 50,
@@ -182,7 +182,7 @@
   {
     "title": "Uncharted 4: A Thief's End",
     "id": 19,
-    "quantity": 10,
+    "stock": 10,
     "genre": "cinematic, adventure",
     "score": 9.3,
     "price": 40,
@@ -192,7 +192,7 @@
   {
     "title": "Bloodborne",
     "id": 20,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, horror",
     "score": 8.3,
     "price": 45,
@@ -202,7 +202,7 @@
   {
     "title": "Elden Ring",
     "id": 21,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg",
     "score": 9.6,
     "price": 90,
@@ -212,7 +212,7 @@
   {
     "title": "God Of War: Ragnarok",
     "id": 22,
-    "quantity": 10,
+    "stock": 10,
     "genre": "sandbox, action, rpg",
     "score": 9.4,
     "price": 75,
@@ -222,7 +222,7 @@
   {
     "title": "Demon's Souls",
     "id": 23,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg",
     "score": 9.2,
     "price": 75,
@@ -232,7 +232,7 @@
   {
     "title": "Final Fantasy VII: Remake",
     "id": 24,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg",
     "score": 8.9,
     "price": 90,
@@ -242,7 +242,7 @@
   {
     "title": "Spider-man: Miles Morales",
     "id": 25,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action",
     "score": 8.5,
     "price": 65,
@@ -252,7 +252,7 @@
   {
     "title": "Ratchet & Clank: Rift Apart",
     "id": 26,
-    "quantity": 10,
+    "stock": 10,
     "genre": "platformer, adventure",
     "score": 8.8,
     "price": 60,
@@ -262,7 +262,7 @@
   {
     "title": "Resident Evil Village",
     "id": 27,
-    "quantity": 10,
+    "stock": 10,
     "genre": "Horror, shooter",
     "score": 7,
     "price": 70,
@@ -272,7 +272,7 @@
   {
     "title": "Horizon II: Forbidden West",
     "id": 28,
-    "quantity": 10,
+    "stock": 10,
     "genre": "rpg, adventure",
     "score": 8.8,
     "price": 85,
@@ -282,7 +282,7 @@
   {
     "title": "Returnal",
     "id": 29,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, shooter",
     "score": 8.6,
     "price": 70,
@@ -292,7 +292,7 @@
   {
     "title": "Ghost of Tsushima: Director's Cut",
     "id": 30,
-    "quantity": 10,
+    "stock": 10,
     "genre": "action, adventure",
     "score": 8.7,
     "price": 90,
