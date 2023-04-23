@@ -16,10 +16,16 @@ const Cart = () => {
           <button className="btn btn-primary" id='backButton'><Link className='nav-link' to={"/"}>Back</Link></button>
         </div> 
       :
-        <div className='container cartFull'>
+      <main className='row'>
+        <div className='col-12 cartFull'>
           <h1 className='display-4' id='cartTitle'>Your Cart:</h1>
           <ItemList juegos={carrito} plantilla={"ItemCart"}/>
         </div>
+        <div className="col-12 buttonCont">
+          <p>Total price: ${totalPrice()}</p>
+          <button className="btn btn-outline-success" id='end'>End Purchase</button>
+        </div>
+      </main>
       }
     </>
   )
