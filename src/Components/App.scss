@@ -6,9 +6,9 @@ div.App {
 
   h1.display-4 {
     display: inline-block;
-    width: 35%;
+    width: 40%;
     text-align: center;
-    margin: 30px -130px 30px auto;
+    margin: 30px -100px 30px auto;
     padding: 15px;
     font-family: monospace;
     color: #F72585;
@@ -69,10 +69,6 @@ div.App {
         font-size: 20px;
       }
 
-    }
-
-    article:last-of-type {
-      justify-self: flex-start;
     }
   }
 }
