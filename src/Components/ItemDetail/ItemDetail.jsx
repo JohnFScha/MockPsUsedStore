@@ -25,7 +25,7 @@ const ItemDetail = ({ juego }) => {
               <p className="card-text">Metacritic score: {juego.score}</p>
               <p className="card-text">Price: ${juego.price}</p>
               <p className="card-text">Stock: {juego.stock}</p>
-              <ItemCount initial={0} min={1} max={juego.stock} onAdd={onAdd} />
+              <ItemCount initial={1} min={1} max={juego.stock} onAdd={onAdd} />
           </div>
       </div>
     </div>

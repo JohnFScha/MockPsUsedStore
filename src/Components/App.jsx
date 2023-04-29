@@ -6,8 +6,11 @@ import NavBar from './NavBar/NavBar';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer'
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
+import { createGames } from '../firebase/firebase'
 
 function App() {
+  // createGames()
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -15,7 +18,7 @@ function App() {
           <Routes>
             <Route path='/' element={<ItemListContainer greeting={"Welcome!"}/>}/>
             <Route path='/category/:category' element={<ItemListContainer/>}/>
-            <Route path='/juego/:game' element={<ItemDetailContainer/>}/>
+            <Route path='/juego/:id' element={<ItemDetailContainer/>}/>
             <Route path='/cart' element={<Cart/>}/>
             <Route path='*' element={<h1>404 - Not Found</h1>}/>
             <Route path='/checkout' element={<Checkout/>}/>

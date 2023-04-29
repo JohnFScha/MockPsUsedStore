@@ -2,19 +2,15 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import './ItemDetailContainer.scss'
 import ItemDetail from '../ItemDetail/ItemDetail'
+import { getGame } from '../../firebase/firebase'
 
 const ItemDetailContainer = () => {
   const [juego, setJuego] = useState([])
-  const {game} = useParams()
+  const { id } = useParams()
  
   useEffect(() => {
-    fetch('../JSON/juegos.json')
-    .then(response => response.json())
-    .then(juegos => {
-        const jueg = juegos.find(jueg => jueg.id === parseInt(game))
-        setJuego(jueg)
-    })
-  }, [game])
+    getGame(id).then(juego => setJuego(juego))
+  }, [])
 
   return (
     <main className='row'>

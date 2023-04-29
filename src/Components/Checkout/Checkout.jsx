@@ -1,12 +1,16 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import './Checkout.scss'
+import { useCarritoContext } from '../../Context/CarritoContext'
 
 export default function Checkout() {
+  const { carrito } = useCarritoContext()
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = cliente => console.log(cliente);
   console.log(errors);
+  const aux = [...carrito]
   
+   
   return (
     <div className="container-fluid animate__animated animate__fadeInRight" id='formContainer'>
       <h1 className="display-4" id='formHeader'>Checkout Form</h1>

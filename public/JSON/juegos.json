@@ -7,7 +7,7 @@
     "score": 9.8,
     "price": 30,
     "console": "PlayStation 3",
-    "img": "/Portraits/grand-theft-auto-V.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/grand-theft-auto-V.jpg?alt=media&token=5b5fe7f3-47e6-40b7-989b-e1a0eca2017c"
   },
   {
     "title": "Gran Turismo 5",
@@ -17,7 +17,7 @@
     "score": 9.5,
     "price": 25,
     "console": "PlayStation 3",
-    "img": "/Portraits/gran-turismo-5.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/gran-turismo-5.jpg?alt=media&token=00e40e53-66d0-482c-8215-90bec12144ae"
   },
   {
     "title": "Alice, Madness Returns",
@@ -27,7 +27,7 @@
     "score": 8.5,
     "price": 15,
     "console": "PlayStation 3",
-    "img": "/Portraits/alice-madness-returns.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/alice-madness-returns.jpg?alt=media&token=bce57526-2240-4120-a712-2646e6bea8fb"
   },
   {
     "title": "Dark Souls",
@@ -37,7 +37,7 @@
     "score": 9.8,
     "price": 30,
     "console": "PlayStation 3",
-    "img": "/Portraits/dark-souls.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/dark-souls.jpg?alt=media&token=a4d42403-0f5d-436a-afec-77368594b8be"
   },
   {
     "title": "The Last of Us",
@@ -47,7 +47,7 @@
     "score": 8.9,
     "price": 30,
     "console": "PlayStation 3",
-    "img": "/Portraits/the-last-of-us.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/the-last-of-us.jpg?alt=media&token=1102b6fe-3608-424e-8a33-8706f15662c9"
   },
   {
     "title": "Fallout: New Vegas",
@@ -57,7 +57,7 @@
     "score": 8.3,
     "price": 15,
     "console": "PlayStation 3",
-    "img": "/Portraits/fallout-new-vegas.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/fallout-new-vegas.jpg?alt=media&token=d8599c5b-bc98-4b83-a3d7-3642fc9a299e"
   },
   {
     "title": "Resident Evil 5",
@@ -67,7 +67,7 @@
     "score": 7,
     "price": 20,
     "console": "PlayStation 3",
-    "img": "/Portraits/resident-evil-5.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/resident-evil-5.jpg?alt=media&token=4b29ad12-f116-4142-b076-98d6c1397634"
   },
   {
     "title": "The Elder Scrolls V: Skyrim",
@@ -77,7 +77,7 @@
     "score": 8.9,
     "price": 25,
     "console": "PlayStation 3",
-    "img": "/Portraits/skyrim.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/skyrim.jpg?alt=media&token=20c43cd2-6d2c-419a-8ae5-f082cf89a028"
   },
   {
     "title": "Uncharted 3: Drake's Deception",
@@ -87,7 +87,7 @@
     "score": 9,
     "price": 25,
     "console": "PlayStation 3",
-    "img": "/Portraits/uncharted-3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/uncharted-3.jpg?alt=media&token=f044353c-e144-4f75-bc2f-692f1a66ee31"
   },
   {
     "title": "FarCry 4",
@@ -97,7 +97,7 @@
     "score": 8.3,
     "price": 15,
     "console": "PlayStation 3",
-    "img": "/Portraits/farcry-4.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/farcry-4.jpg?alt=media&token=f4b6eeed-c10c-4c57-98e8-fe2c2d2ed8ff"
   },
   {
     "title": "Grand Theft Auto 5",
@@ -107,7 +107,7 @@
     "score": 9.5,
     "price": 50,
     "console": "PlayStation 4",
-    "img": "/Portraits/grand-theft-auto-V-ps4.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/grand-theft-auto-v-ps4.jpg?alt=media&token=57a46e84-1305-45bc-a037-2c8371939016"
   },
   {
     "title": "Red Dead Redemption 2",
@@ -117,7 +117,7 @@
     "score": 9.7,
     "price": 50,
     "console": "PlayStation 4",
-    "img": "/Portraits/red-dead-redemption-2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/red-dead-redemption-2.jpg?alt=media&token=ffbbb00a-32c8-485b-9c3d-a92f02770bb1g"
   },
   {
     "title": "Persona 5 Royal",
@@ -127,7 +127,7 @@
     "score": 9.5,
     "price": 60,
     "console": "PlayStation 4",
-    "img": "/Portraits/persona-5-royal.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/persona-5-royal.jpg?alt=media&token=4ce5386c-c441-4893-b20b-d8ebdac5c751"
   },
   {
     "title": "The Last of Us Remastered",
@@ -137,7 +137,7 @@
     "score": 9.5,
     "price": 50,
     "console": "PlayStation 4",
-    "img": "/Portraits/the-last-of-us-remastered.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/the-last-of-us-remastered.jpg?alt=media&token=82baca9a-1e59-4547-9c67-b5ad9746ec6a"
   },
   {
     "title": "God Of War (2018)",
@@ -147,7 +147,7 @@
     "score": 9.4,
     "price": 55,
     "console": "PlayStation 4",
-    "img": "/Portraits/god-of-war.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/god-of-war.jpg?alt=media&token=77676366-8549-4c0a-9777-0c2631461b7e"
   },
   {
     "title": "Journey",
@@ -157,7 +157,7 @@
     "score": 9.2,
     "price": 30,
     "console": "PlayStation 4",
-    "img": "/Portraits/journey.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/journey.jpg?alt=media&token=a5868bee-e986-4f25-ba8c-6bf58ea8d9a6"
   },
   {
     "title": "The Last of Us Part II",
@@ -167,7 +167,7 @@
     "score": 7,
     "price": 60,
     "console": "PlayStation 4",
-    "img": "/Portraits/the-last-of-us-part-ii.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/the-last-of-us-part-ii.jpg?alt=media&token=aa17fcab-1ae8-4778-8be1-b61d78932057"
   },
   {
     "title": "Metal Gear Solid V: The Phantom Pain",
@@ -177,7 +177,7 @@
     "score": 9.3,
     "price": 50,
     "console": "PlayStation 4",
-    "img": "/Portraits/metal-gear-solid-v-the-phantom-pain.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/metal-gear-solid-v-the-phantom-pain.jpg?alt=media&token=50138d15-33e8-4532-8f99-a40a154436c7"
   },
   {
     "title": "Uncharted 4: A Thief's End",
@@ -187,7 +187,7 @@
     "score": 9.3,
     "price": 40,
     "console": "PlayStation 4",
-    "img": "/Portraits/uncharted-4-a-thiefs-end.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/uncharted-4-a-thiefs-end.jpg?alt=media&token=351c6639-b366-4118-8ecf-ab78a2f455a1"
   },
   {
     "title": "Bloodborne",
@@ -197,7 +197,7 @@
     "score": 8.3,
     "price": 45,
     "console": "PlayStation 4",
-    "img": "/Portraits/bloodborne.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/bloodborne.jpg?alt=media&token=a4506992-9659-4383-8126-17b95a80cc64"
   },
   {
     "title": "Elden Ring",
@@ -207,7 +207,7 @@
     "score": 9.6,
     "price": 90,
     "console": "PlayStation 5",
-    "img": "/Portraits/elden-ring.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/elden-ring.jpg?alt=media&token=2392d2e1-2dc6-4133-bf45-1ac04dd529f7"
   },
   {
     "title": "God Of War: Ragnarok",
@@ -217,7 +217,7 @@
     "score": 9.4,
     "price": 75,
     "console": "PlayStation 5",
-    "img": "/Portraits/god-of-war-ragnarok.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/god-of-war-ragnarok.jpg?alt=media&token=8d1cbf75-a03e-47e4-9729-a29281bb64b5"
   },
   {
     "title": "Demon's Souls",
@@ -227,7 +227,7 @@
     "score": 9.2,
     "price": 75,
     "console": "PlayStation 5",
-    "img": "/Portraits/demons-souls.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/demons-souls.jpg?alt=media&token=9bd4e495-b86f-4dfb-8717-78f37e8691c3"
   },
   {
     "title": "Final Fantasy VII: Remake",
@@ -237,7 +237,7 @@
     "score": 8.9,
     "price": 90,
     "console": "PlayStation 5",
-    "img": "/Portraits/final-fantasy-vii-remake-intergrade.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/final-fantasy-vii-remake-intergrade.jpg?alt=media&token=7dc0a88a-a0f4-4161-be12-b9a1cc8bc54e"
   },
   {
     "title": "Spider-man: Miles Morales",
@@ -247,7 +247,7 @@
     "score": 8.5,
     "price": 65,
     "console": "PlayStation 5",
-    "img": "/Portraits/marvel-spider-man-miles-morales.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/marvel-spider-man-miles-morales.jpg?alt=media&token=c132c504-d37a-4f72-959a-59030f3cebaa"
   },
   {
     "title": "Ratchet & Clank: Rift Apart",
@@ -257,7 +257,7 @@
     "score": 8.8,
     "price": 60,
     "console": "PlayStation 5",
-    "img": "/Portraits/ratchet-clank-rift-apart.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/ratchet-clank-rift-apart.jpg?alt=media&token=4515404f-2ed9-4797-832c-9148474b0bef"
   },
   {
     "title": "Resident Evil Village",
@@ -267,7 +267,7 @@
     "score": 7,
     "price": 70,
     "console": "PlayStation 5",
-    "img": "/Portraits/resident-evil-village.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/resident-evil-village.jpg?alt=media&token=55666763-60d1-4b2e-98b1-8929f41276c6"
   },
   {
     "title": "Horizon II: Forbidden West",
@@ -277,7 +277,7 @@
     "score": 8.8,
     "price": 85,
     "console": "PlayStation 5",
-    "img": "/Portraits/horizon-ii-forbidden-west.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/horizon-ii-forbidden-west.jpg?alt=media&token=f77cd2b4-0522-4db6-b543-0f5be8326df8"
   },
   {
     "title": "Returnal",
@@ -287,7 +287,7 @@
     "score": 8.6,
     "price": 70,
     "console": "PlayStation 5",
-    "img": "/Portraits/returnal.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/returnal.jpg?alt=media&token=9bf8d4dd-4fbc-48f1-a8fc-c3f54743cfe4"
   },
   {
     "title": "Ghost of Tsushima: Director's Cut",
@@ -297,6 +297,6 @@
     "score": 8.7,
     "price": 90,
     "console": "PlayStation 5",
-    "img": "/Portraits/ghost-of-tsushima-directors-cut.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/base-de-datos-app-777c3.appspot.com/o/ghost-of-tsushima-directors-cut.jpg?alt=media&token=ae7e79cb-bb22-48ed-948f-ed2616bfc509"
   }
 ]

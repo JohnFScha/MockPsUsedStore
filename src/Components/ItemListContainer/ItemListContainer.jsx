@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './ItemListContainer.scss'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
+import { getGames } from '../../firebase/firebase'
 
 const ItemListContainer = ({greeting}) => {
   const [juegos, setJuegos] = useState([])
@@ -10,15 +11,13 @@ const ItemListContainer = ({greeting}) => {
   useEffect(() => {
 
     if(category) {
-      fetch('../JSON/juegos.json')
-      .then(response => response.json())
+      getGames()
       .then(juegos => {
         const juegosFiltrados = juegos.filter(jueg => jueg.stock > 0).filter(jueg => jueg.console === category)
         setJuegos(juegosFiltrados)
       })
     } else {
-      fetch('./JSON/juegos.json')
-      .then(response => response.json())
+      getGames()
       .then(juegos => {
         const juegosFiltrados = juegos.filter(jueg => jueg.stock > 0)
         setJuegos(juegosFiltrados)
