@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import ItemList from '../ItemList/ItemList'
 
 const Cart = () => {
-  const { carrito, emptyCart, totalPrice} = useCarritoContext()
+  const { carrito, totalPrice} = useCarritoContext()
 
   return (
     <>

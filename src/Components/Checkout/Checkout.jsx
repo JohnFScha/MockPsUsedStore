@@ -1,15 +1,19 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import './Checkout.scss'
+import { useNavigate } from 'react-router-dom';
 import { useCarritoContext } from '../../Context/CarritoContext'
+// import { updateGames, getGame, createOrdenCompra } from '../../firebase/firebase'
+// import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Checkout() {
-  const { carrito } = useCarritoContext()
-  const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = cliente => console.log(cliente);
+  const { carrito, totalPrice, emptyCart } = useCarritoContext()
+  const { register, handleSubmit, formState: { errors }, getValues } = useForm();
   console.log(errors);
-  const aux = [...carrito]
-  
+  //let navigate = useNavigate()
+
+  const onSubmit = data => console.log(data) 
    
   return (
     <div className="container-fluid animate__animated animate__fadeInRight" id='formContainer'>
@@ -35,7 +39,7 @@ export default function Checkout() {
         </div>
         <input type="text" placeholder="CCV" {...register("CCV", {})} />
 
-        <input type="submit" />
+        <input type="submit"/>
     </form>
     </div>
   );

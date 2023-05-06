@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
  
   useEffect(() => {
     getGame(id).then(juego => setJuego(juego))
-  }, [])
+  }, [id])
 
   return (
     <main className='row'>

@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, addDoc, getDoc, getDocs, deleteDoc, updateDoc, collection, doc } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyALr7qK2HcL6RmUC0TQLaxv05AEkm_kefc",
+  apiKey: process.env.API_KEY,
   authDomain: "base-de-datos-app-777c3.firebaseapp.com",
   projectId: "base-de-datos-app-777c3",
   storageBucket: "base-de-datos-app-777c3.appspot.com",
@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 
 // Consultaar Base de datos
 const bdd = getFirestore();
@@ -70,6 +70,7 @@ export const createOrdenCompra = async (cliente, precioTotal, carrito, fecha) =>
     items: carrito,
     fecha: fecha
   })
+  console.log(ordenCompra)
   return ordenCompra
 }
 
@@ -77,4 +78,9 @@ export const getOrdenCompra = async(id) => {
   const ordenCompra = await getDoc(doc(bdd, "ordenCompra", id))
   const item = { ...ordenCompra.data(), id: ordenCompra.id }
   console.log(item)
+  return item
+}
+
+export const deleteOrdenCompra = async(id) => {
+  await deleteDoc(doc(bdd, "ordenCompra", id))
 }
