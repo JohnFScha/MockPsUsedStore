@@ -3,41 +3,87 @@ import { useForm } from 'react-hook-form';
 import './Checkout.scss'
 import { useNavigate } from 'react-router-dom';
 import { useCarritoContext } from '../../Context/CarritoContext'
-// import { updateGames, getGame, createOrdenCompra } from '../../firebase/firebase'
-// import { toast } from 'react-toastify';
+import { updateGames, getGame, createOrdenCompra } from '../../firebase/firebase'
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Checkout() {
   const { carrito, totalPrice, emptyCart } = useCarritoContext()
-  const { register, handleSubmit, formState: { errors }, getValues } = useForm();
-  console.log(errors);
-  //let navigate = useNavigate()
+  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  let navigate = useNavigate()
 
-  const onSubmit = data => console.log(data) 
+  const onSubmit = client => {
+    // Creamos una copia del carrito para evitar su modificacion 
+    const aux = [...carrito];
+
+    // Recorremos el carrito con un loop
+    aux.forEach(juegosEnCarrito => {
+
+      // Tomamos el juego en el carrito por su ID
+      getGame(juegosEnCarrito.id).then(juegoBDD => {
+
+        // Si el stock es mayor a la cantidad agregada en el carrito, actulizamos el valor del stock y actualizamos la base de datos
+        if (juegoBDD.stock >= juegosEnCarrito.quantity) {
+          juegoBDD.sotck = juegosEnCarrito.quantity
+          updateGames(juegoBDD.id, juegoBDD)
+
+        // Si no es asi, entonces emitimos un toast/alerta que informe que la cantidad añadida supera el stock
+        } else {
+          toast.warn('The quantity added exceeds the available stock!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
+        }
+      })
+    })
+
+    // Creamos una nueva copia del carrito para evitar su modificacion
+    const aux2 = aux.map(juego => ({id: juego.id, quantity: juego.quantity, price: juego.price}))
+
+    // Creamos la orden de compra con los datos del Form + el total de los juegos añadidos y la fecga de hoy
+    createOrdenCompra(client, totalPrice(), aux2, new Date().toLocaleString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
+    .then(ordenCompra => {
+      toast.success("Thank you for shopping with us, we'll contact via e-mail ", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
+      emptyCart()
+      reset(client)
+      navigate('/')
+    })
+    .catch(errors => {
+      console.error(errors)
+    })
+  }
    
   return (
-    <div className="container-fluid animate__animated animate__fadeInRight" id='formContainer'>
+    <div className="container-fluid animate__animated animate__fadeIn" id='formContainer'>
+      <ToastContainer />
       <h1 className="display-4" id='formHeader'>Checkout Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row" id='formInput'>
           <div className="col">
-            <input type="text" placeholder="First name" {...register("First name", {required: true, maxLength: 80})} />
+            <input type="text" placeholder="First name" {...register("firstName", {required: true, maxLength: 80})} />
           </div>
           <div className="col">
-            <input type="text" placeholder="Last name" {...register("Last name", {required: true, maxLength: 100})} />
+            <input type="text" placeholder="Last name" {...register("lastName", {required: true, maxLength: 100})} />
           </div>
         </div>
         <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
-        <input type="tel" placeholder="Mobile number" {...register("Mobile number", {required: true, minLength: 6, maxLength: 12})} />
-        <div className="row" id='formInput'>
-          <div className="col">
-            <input type="text" placeholder="Card number" {...register("Card number", {})} />
-          </div>
-          <div className="col">
-            <input type="datetime" placeholder="Expiration date" {...register("Expiration date", {})} />
-          </div>
-        </div>
-        <input type="text" placeholder="CCV" {...register("CCV", {})} />
+        <input type="text" placeholder="Repeat Email" required />
+        <input type="tel" placeholder="Mobile number" {...register("number", {required: true, minLength: 6, maxLength: 12})} />
 
         <input type="submit"/>
     </form>
