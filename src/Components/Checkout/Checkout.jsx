@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export default function Checkout() {
   const { carrito, totalPrice, emptyCart } = useCarritoContext()
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   let navigate = useNavigate()
 
   const onSubmit = client => {
@@ -49,7 +49,7 @@ export default function Checkout() {
     // Creamos la orden de compra con los datos del Form + el total de los juegos añadidos y la fecga de hoy
     createOrdenCompra(client, totalPrice(), aux2, new Date().toLocaleString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
     .then(ordenCompra => {
-      toast.success("Thank you for shopping with us, we'll contact via e-mail ", {
+      toast.success(`Thank you for shopping with us, your shop order: ${ordenCompra.id}, for a total of: ${totalPrice()}. We'll get back via e-mail!`, {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -63,8 +63,8 @@ export default function Checkout() {
       reset(client)
       navigate('/')
     })
-    .catch(errors => {
-      console.error(errors)
+    .catch(error => {
+      console.error(error)
     })
   }
    
