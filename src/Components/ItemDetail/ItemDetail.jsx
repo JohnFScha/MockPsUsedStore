@@ -5,7 +5,6 @@ import { useCarritoContext } from '../../Context/CarritoContext'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
-
 const ItemDetail = ({ juego }) => {
   const { addGame } = useCarritoContext()
   let navigate = useNavigate()

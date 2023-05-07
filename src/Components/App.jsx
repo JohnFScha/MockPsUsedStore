@@ -7,6 +7,7 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer'
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
 //import { createGames } from '../firebase/firebase'
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <NavBar />
+      <ToastContainer />
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={"Welcome!"}/>}/>
         <Route path='/category/:category' element={<ItemListContainer/>}/>
