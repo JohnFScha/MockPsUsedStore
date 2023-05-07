@@ -26,6 +26,11 @@ div.row#cartList{
 
     button.btn#removeButton {
       width: 50%;
+      svg {
+        margin: 0;
+        display: inline;
+        padding: 0;
+      }
     }
   }
 }

@@ -1,19 +1,27 @@
 import React from 'react'
 import './CartWidget.scss'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaShoppingCart, FaCartPlus } from 'react-icons/fa'
 import { useCarritoContext } from '../../Context/CarritoContext'
 import { Link } from 'react-router-dom'
 
 const CartWidget = () => {
- const { getItemQuantity } = useCarritoContext()
+ const { carrito, getItemQuantity } = useCarritoContext()
   
   return (
+    // Usamos conditional rendering para evaluar si hay o no algun producto en el carrito. Si no lo hay, renderizamos un carrito vacio. Si lo hay renderizamos un carrito con elementos.
     <button className='btn btn-primary'>
+      {
+      carrito.length === 0 ?
       <Link className='nav-link' to={"/cart"}>
-      <FontAwesomeIcon icon={faCartShopping} />
-        {getItemQuantity() > 0 && <span className='cantCarrito'>{getItemQuantity()}</span>}
+        <FaShoppingCart className='animate__animated animate__flash'/>
+          {getItemQuantity() > 0 && <span className='cantCarrito'>{getItemQuantity()}</span>}
       </Link>
+      :
+      <Link className='nav-link' to={"/cart"}>
+        <FaCartPlus className='animate__animated animate__flash'/>
+          {getItemQuantity() > 0 && <span className='cantCarrito'>{getItemQuantity()}</span>}
+      </Link>
+      }
     </button>
   )
 }

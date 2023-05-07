@@ -1,19 +1,29 @@
 div#formContainer {
   background-image: linear-gradient(to left, #4CC9F0, #F72585, #241740 90%);
   min-height: 100vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+
+  h1#formHeader {
+    position: relative;
+    right: 10%;
+  }
 
   form {
-    margin-top: 25px;
-    margin-left: 200px;
-    width: 80%;
+    position: relative;
+    top: 75px;
+    right: 10px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: monospace;
+    
   
     div#formInput{
-      width: 100%;
+      width: 99.9%;
       margin: 0;
       padding: 0;
     }
@@ -27,26 +37,24 @@ div#formContainer {
       box-shadow: 0 0 10px 0px #4CC9F0;
       color: #F72585;
       border-radius: 10px;
-      padding: 5px;
+      padding: 15px;
       transition: 0.3s;
   
       &::placeholder{
         color: #F72585;
         font-size: large;
-        padding: 10px;
       }
-  
-      // &:focus {
-      //   background-color: transparent;
-      //   color: #4CC9F0;
-      // }
+
+      &:focus {
+        background-color: #241740;
+      }
     }
   
     input[type="submit"] {
       width: 25%;
       align-self: center;
-      position: relative;
-      bottom: 0px;
+      position: fixed;
+      bottom: 10%;
       height: 75px;
       transition: 0.5s;
       margin-top: 20px;

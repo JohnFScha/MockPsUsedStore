@@ -49,6 +49,7 @@ export default function Checkout() {
     // Creamos la orden de compra con los datos del Form + el total de los juegos añadidos y la fecha de hoy
     createOrdenCompra(client, totalPrice(), aux2, new Date().toLocaleString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
     .then(ordenCompra => {
+      // Si la orden de compra se creo satisfactoriamente, renderizamos un toast que informe de ello.
       toast.success(`Thank you for shopping with us, your shop order: ${ordenCompra.id}, for a total of: $${totalPrice()}. We'll get back via e-mail!`, {
         position: "top-right",
         autoClose: 5000,
@@ -59,6 +60,7 @@ export default function Checkout() {
         progress: undefined,
         theme: "dark",
         });
+      // Seguidamente, vaciamos el carrito, reseteamos el form y volvemos a la pagina principal.
       emptyCart()
       reset()
       navigate('/')
@@ -69,7 +71,7 @@ export default function Checkout() {
   }
    
   return (
-    <div className="container-fluid animate__animated animate__fadeIn" id='formContainer'>
+    <div className="container animate__animated animate__fadeIn" id='formContainer'>
       <ToastContainer />
       <h1 className="display-4" id='formHeader'>Checkout Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
