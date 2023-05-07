@@ -92,13 +92,15 @@ export default function Checkout() {
       <h1 className="display-4" id='formHeader'>Checkout Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row" id='formInput'>
-          <div className="col">
+          <div className="col-6">
             <input type="text" placeholder="First name" {...register("firstName", {required: true, maxLength: 80})} />
           </div>
-          <div className="col">
+          <div className="col-6">
             <input type="text" placeholder="Last name" {...register("lastName", {required: true, maxLength: 100})} />
           </div>
         </div>
+        <input type="text" placeholder="DNI" {...register("DNI", {required: true, maxLength: 8})} />
+        <input type="text" placeholder="Address" {...register("address", {required: true, maxLength: 80})} />
         <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
         <input type="text" placeholder="Repeat Email" {...register("repeatedEmail", {required: true, pattern: /^\S+@\S+$/i})} />
         <input type="tel" placeholder="Mobile number" {...register("number", {required: true, minLength: 6, maxLength: 12})} />
