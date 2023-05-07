@@ -1,6 +1,6 @@
 # Mock E-commerce - Tienda de usados de Playstation™
 
-_Proyecto final de la comisión 39655 de React.js de Coderhouse_
+__Proyecto final de la comisión 39655 de React.js de Coderhouse__
 
 ## Pre-requerimientos:
 
