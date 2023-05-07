@@ -1,8 +1,8 @@
-# Mock E-commerce - Tienda de usados de Playstation™
+# Mock E-commerce - Tienda de usados de Playstation™ 🎮
 
-__Proyecto final de la comisión 39655 de React.js de Coderhouse__
+__Proyecto final de la comisión 39655 de React.js ⚛️ de Coderhouse__
 
-## Pre-requerimientos:
+## Pre-requerimientos 🤓
 
 _Instalar React:_ 
 ```
@@ -20,7 +20,7 @@ _Y las siguientes dependencias:_
   npm i sass
 ```
 
-## Ejecutar la app:
+## Ejecutar la app 🖥️
 
 La aplicacion fue compilada a traves del comando `npm run build`. Luego de lo cual se instaló el environment de Node.js con el comando `npm install -g serve`.
 
@@ -31,7 +31,7 @@ Es decir, una vez instalado React y sus dependencias, mediante la terminal ejecu
 Lo cual ejecutara la app por defecto en el puerto [localhost:3000](http://localhost:3000/), hasta su terminacion en la terminal del usuario.
 _(para mas informacion sobre como implementar la app de diversos modos, remitirse a la pagina oficial de "create-react-app": [Deployment-info](https://create-react-app.dev/docs/deployment/))._
 
-## Creado con:
+## Creado con 📝
 
 * [React](https://react.dev/) - Frontend JavaScript Framework.
 * [Firebase](https://console.firebase.google.com/?hl=es) - Base de datos y server de Google™.
