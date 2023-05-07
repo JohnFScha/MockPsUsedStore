@@ -28,21 +28,21 @@ _Existen dos maneras de implementar esta app de manera local:_
 ```
   npm start
 ```
-Lo que lanzará el modo de desarrollo en el puerto [localhost:3000](http://localhost:3000). 
+  Lo que lanzará el modo de desarrollo en el puerto [localhost:3000](http://localhost:3000). 
 
 2. Alternanativamente, una vez descargado o clonado el repositorio, puede compilarse a traves de un ambiente artificial en node.js mediante el siguiente comando:
-```
-  nom run build
-```
-Esto creará una produccion local, para poder acceder a ella deberá instalar la dependecia `serve`_(para mas informacion sobre esta dependencia, dirigirse a [Vercel/Serve](https://github.com/vercel/serve))_ mediante el siguiente comando en la consola:
-```
+  ```
+    npm run build
+  ```
+  Esto creará una produccion local, para poder acceder a ella deberá instalar la dependecia `serve`_(para mas informacion sobre esta dependencia, dirigirse a [Vercel/Serve](https://github.com/vercel/serve))_ mediante el siguiente comando en la consola:
+  ```
   npm install -g serve
-```
-Una vez hecho esto, y con el comando `build` previamente ejecutado, para acceder a la produccion local debera ejecutar éste último comando:
-```
-  serve -s build
-```
-Lo cual ejecutara la app por defecto en el puerto [localhost:3000](http://localhost:3000/), hasta su terminacion en la terminal del usuario.
+  ```
+  Una vez hecho esto, y con el comando `build` previamente ejecutado, para acceder a la produccion local debera ejecutar éste último comando:
+  ```
+    serve -s build
+  ```
+  Lo cual ejecutara la app por defecto en el puerto [localhost:3000](http://localhost:3000/), hasta su terminacion en la terminal del usuario.
 
 _(Para mas informacion sobre como implementar la app de diversos modos, remitirse a la pagina oficial de "create-react-app": [deployment-info](https://create-react-app.dev/docs/deployment/))._
 
