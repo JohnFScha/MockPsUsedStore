@@ -5,7 +5,7 @@ nav {
   z-index: 3;
   overflow: hidden;
   width: 8.5%;
-  height: 100%;
+  min-height: 100vh;
   background-image: linear-gradient(to right, #F72585, #7209B7 85%, #241740 99%);
   padding-left: 5px;
   animation-duration: 0.1s;

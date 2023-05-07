@@ -5,7 +5,7 @@ import { SiPlaystation3, SiPlaystation4, SiPlaystation5 } from 'react-icons/si'
 
 const Categories = () => {
    return (
-    <ul className="nav nav-pills nav-flush d-flex flex-column justify-content-evenly">
+    <ul className="nav nav-pills d-flex flex-column justify-content-evenly">
       <li className="nav-item">
         <Link to={"/category/PlayStation 3"} className="nav-link rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="PlayStation 3">
           <SiPlaystation3 />
