@@ -36,7 +36,7 @@ _(para mas informacion sobre como implementar la app de diversos modos, remitirs
 * [React](https://react.dev/) - Frontend JavaScript Framework.
 * [Firebase](https://console.firebase.google.com/?hl=es) - Base de datos y server de Google™.
 * [React-Hook-Form](https://react-hook-form.com/) - Libreria usada cómo template del Checkout.
-* [React-icons](https://react-icons.github.io/react-icons/) - Extensa libreria de iconos em formato .svg
+* [React-icons](https://react-icons.github.io/react-icons/) - Extensa libreria de iconos en formato .svg
 * [React-toastify](https://fkhadra.github.io/react-toastify/introduction/) - Libreria con notificaciones pop-up usadas para devolver informacion al usuario en pantalla.
 * [React-router-dom](https://reactrouter.com/en/main) - Habilita el "Client side routing", para poder desarrollar SPAs navegables.
 * [React-loader-spinner](https://mhnpd.github.io/react-loader-spinner/) - Para implementar un cargador en aquellas paginas que hagan un request a la base de datos en Firebase.
