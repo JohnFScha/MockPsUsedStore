@@ -12,6 +12,20 @@ div.container.count {
     }
   }
 
+  div.countContainer {
+    display: inline-block;
+    margin: auto;
+    width: 10%;
+    background-color: rgba($color: #807c7c, $alpha: 0.2);
+    border-radius: 10px;
+
+    small {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
   button.btn.btn-outline-danger {
     margin: 10px;
     font-size: 20px;
@@ -29,6 +43,6 @@ div.container.count {
 button.btn.btn-success {
   padding: 10px 15px;
   font-size: 20px;
-  width: 55%;
+  width: 60%;
 
 }

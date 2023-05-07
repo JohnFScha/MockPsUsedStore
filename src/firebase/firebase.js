@@ -54,12 +54,12 @@ export const getGame = async (id) => {
 // Update juegos
 export const updateGames = async(id, info) => {
   const estado = await updateDoc(doc(bdd, "juegos", id), info)
-  console.log(estado)
+  return estado
 }
 
 export const deleteGame = async(id) => {
   const estado = await deleteDoc(doc(bdd, "juegos", id))
-  console.log(estado)
+  return estado
 }
 
 // Create y Read orden de compra
@@ -70,14 +70,12 @@ export const createOrdenCompra = async (cliente, precioTotal, carrito, fecha) =>
     items: carrito,
     fecha: fecha
   })
-  console.log(ordenCompra)
   return ordenCompra
 }
 
 export const getOrdenCompra = async(id) => {
   const ordenCompra = await getDoc(doc(bdd, "ordenCompra", id))
   const item = { ...ordenCompra.data(), id: ordenCompra.id }
-  console.log(item)
   return item
 }
 

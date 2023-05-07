@@ -9,8 +9,6 @@ const ItemDetail = ({ juego }) => {
 
   const onAdd = (contador) => {
     addGame(juego, contador)
-    console.log(juego)
-    console.log(contador)
   }
 
   return (

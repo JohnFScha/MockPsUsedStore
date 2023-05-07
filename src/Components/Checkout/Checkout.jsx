@@ -12,7 +12,7 @@ export default function Checkout() {
   const { register, handleSubmit, reset } = useForm();
   let navigate = useNavigate()
 
-  const onSubmit = client => {
+  const onSubmit = (client) => {
     // Creamos una copia del carrito para evitar su modificacion 
     const aux = [...carrito];
 
@@ -24,7 +24,7 @@ export default function Checkout() {
 
         // Si el stock es mayor a la cantidad agregada en el carrito, actulizamos el valor del stock y actualizamos la base de datos
         if (juegoBDD.stock >= juegosEnCarrito.quantity) {
-          juegoBDD.sotck = juegosEnCarrito.quantity
+          juegoBDD.stock -= juegosEnCarrito.quantity
           updateGames(juegoBDD.id, juegoBDD)
 
         // Si no es asi, entonces emitimos un toast/alerta que informe que la cantidad añadida supera el stock
@@ -46,10 +46,10 @@ export default function Checkout() {
     // Creamos una nueva copia del carrito para evitar su modificacion
     const aux2 = aux.map(juego => ({id: juego.id, quantity: juego.quantity, price: juego.price}))
 
-    // Creamos la orden de compra con los datos del Form + el total de los juegos añadidos y la fecga de hoy
+    // Creamos la orden de compra con los datos del Form + el total de los juegos añadidos y la fecha de hoy
     createOrdenCompra(client, totalPrice(), aux2, new Date().toLocaleString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
     .then(ordenCompra => {
-      toast.success(`Thank you for shopping with us, your shop order: ${ordenCompra.id}, for a total of: ${totalPrice()}. We'll get back via e-mail!`, {
+      toast.success(`Thank you for shopping with us, your shop order: ${ordenCompra.id}, for a total of: $${totalPrice()}. We'll get back via e-mail!`, {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -60,7 +60,7 @@ export default function Checkout() {
         theme: "dark",
         });
       emptyCart()
-      reset(client)
+      reset()
       navigate('/')
     })
     .catch(error => {

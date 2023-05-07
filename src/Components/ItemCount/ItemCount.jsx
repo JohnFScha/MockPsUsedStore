@@ -11,7 +11,9 @@ const ItemCount = ({ initial, min, max, onAdd }) => {
     <>
       <div className='container count'>
         <button className="btn btn-outline-primary" onClick={substract}>-</button>
-        {count}
+        <div className="countContainer">
+          <small>{count}</small>
+        </div>
         <button className="btn btn-outline-primary" onClick={add}>+</button>
         <button className="btn btn-outline-danger" onClick={reset}>Reset</button>
       </div>
