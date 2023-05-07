@@ -34,7 +34,7 @@ _Existen dos maneras de implementar esta app de manera local:_
   ```
     npm run build
   ```
-  Esto creará una produccion local, para poder acceder a ella deberá instalar la dependecia `serve`_(para mas informacion sobre esta dependencia, dirigirse a [Vercel/Serve](https://github.com/vercel/serve))_ mediante el siguiente comando en la consola:
+  Esto creará una produccion local, para poder acceder a ella deberá instalar la dependecia `serve` _(para mas informacion sobre esta dependencia, dirigirse a [Vercel/Serve](https://github.com/vercel/serve))_ mediante el siguiente comando en la consola:
   ```
   npm install -g serve
   ```
@@ -46,7 +46,7 @@ _Existen dos maneras de implementar esta app de manera local:_
 
 _(Para mas informacion sobre como implementar la app de diversos modos, remitirse a la pagina oficial de "create-react-app": [deployment-info](https://create-react-app.dev/docs/deployment/))._
 
-_(Se recomienda utilizar el complemento de Chrome ["React-Dev-Tools"](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi), de esa manera se tendrá acceso a la pestaña "Componentes" a la izquierda del resto de los elementos de las herramientas de desarrollador)_
+_(Se recomienda utilizar el complemento de Chrome ["React-Dev-Tools"](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi), de esa manera se tendrá acceso a la pestaña "Componentes" a la derecha del resto de los elementos de las herramientas de desarrollador)_
 
 ## Creado con 📝
 
