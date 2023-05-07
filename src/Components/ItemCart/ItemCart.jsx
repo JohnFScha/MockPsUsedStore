@@ -1,10 +1,11 @@
 import React from 'react'
 import { useCarritoContext } from '../../Context/CarritoContext'
 import { BsTrash3Fill } from 'react-icons/bs'
+import { toast } from 'react-toastify'
 import './ItemCart.scss'
 
 const ItemCart = ({juego}) => {
-  const {removeGame}  = useCarritoContext()
+  const { removeGame }  = useCarritoContext()
 
   return (
     <div className="row g-0 p-4 animate__animated animate__bounceIn" id='cartList'>
@@ -17,7 +18,20 @@ const ItemCart = ({juego}) => {
               <p className="card-text">Unit Price: ${juego.price}</p>
               <p className="card-text">Quantity: x{juego.quantity}</p>
               <p className="card-text">Subtotal: ${juego.quantity * juego.price}</p>
-              <button className="btn btn-primary" id='removeButton' onClick={() => removeGame(juego.id)}>Remove  <BsTrash3Fill/></button>
+              <button className="btn btn-primary" id='removeButton' 
+              onClick={() => {
+                removeGame(juego.id)
+                toast.info(`${juego.title} was removed from cart!`, {
+                  position: "top-right",
+                  autoClose: 3000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "dark",
+                  });
+                }}>Remove <BsTrash3Fill/></button>
           </div>
       </div>
     </div>

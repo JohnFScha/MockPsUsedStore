@@ -2,13 +2,27 @@ import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import './ItemDetail.scss'
 import { useCarritoContext } from '../../Context/CarritoContext'
+import { useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 
 const ItemDetail = ({ juego }) => {
-  const {addGame} = useCarritoContext()
+  const { addGame } = useCarritoContext()
+  let navigate = useNavigate()
 
   const onAdd = (contador) => {
     addGame(juego, contador)
+    toast.info(`${juego.title} added to cart!`, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+    navigate(`/category/${juego.console}`)
   }
 
   return (

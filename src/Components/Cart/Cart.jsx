@@ -6,14 +6,14 @@ import ItemList from '../ItemList/ItemList'
 
 const Cart = () => {
   const { carrito, totalPrice } = useCarritoContext()
-
+  
   return (
     <>
       {
       carrito.length === 0 ?
         <div className='container cartEmpty'>
-          <h1 className='display-4' id='cartTitle'>Cart empty</h1>
-          <button className="btn btn-primary" id='backButton'><Link className='nav-link' to={"/"}>Back</Link></button>
+          <h1 className='display-4 animate__animated animate__backInUp ' id='cartTitle'>Cart empty</h1>
+          <button className="btn btn-primary animate__animated animate__backInUp" id='backButton'><Link className='nav-link' to={"/"}>Back</Link></button>
         </div> 
       :
       <main className='row'>

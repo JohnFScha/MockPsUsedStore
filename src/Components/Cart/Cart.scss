@@ -6,6 +6,7 @@ div.container.cartEmpty {
 
   h1.display-4#cartTitle {
     margin: 20px;
+    animation-duration: 2s;
   }
 
   button.btn#backButton {
@@ -13,6 +14,7 @@ div.container.cartEmpty {
     position: fixed;
     bottom: 0;
     margin: 20px;
+    animation-duration: 2s;
   }
 }
 
